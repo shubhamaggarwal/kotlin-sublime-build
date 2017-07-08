@@ -1,0 +1,7 @@
+{
+  "linux":{
+    "path": "/usr/local/bin:$PATH",
+    "cmd" : "kotlinc \"${file}\" -include-runtime -d file.jar && java -jar file.jar", 
+    "shell":"true",
+  }
+}
